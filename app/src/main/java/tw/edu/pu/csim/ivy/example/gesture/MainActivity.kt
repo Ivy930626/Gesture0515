@@ -44,7 +44,7 @@ fun PointerEvents() {
         Box(
             Modifier
                 .fillMaxSize()
-                .background(Color.Yellow)
+                .background(Color.Blue)
                 .pointerInput(Unit) {
                     awaitPointerEventScope {
                         while (true) {
